@@ -34,6 +34,10 @@
   .card p{
 	margin: 0.1em 0.1em;
 }
+.funcao {
+	font-weight: bold;
+	font-size: 96%;
+}
 .card a{
 	border-bottom: none;
 }
