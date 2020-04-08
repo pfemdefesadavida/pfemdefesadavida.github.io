@@ -52,8 +52,8 @@
 
 /*adaptações de imagem de fundo e layout*/
 #proj {
-  background-image: url("../../images/background/projeto-capa.jpg");
-  background-position: center;
+  background-image: url("../../images/background/projeto-capa-1.jpg");
+  background-position: 30%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
