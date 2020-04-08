@@ -63,7 +63,7 @@
 	/* border: solid 2px; */
 }
 #news {
-  background-image: url("../../images/background/jornal-3.jpg");
+  background-image: url("../../images/background/jornal-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +98,7 @@ ul.actions.right {
 }
 
 #team {
-  background-image: url("../../images/background/equipe-5.jpg");
+  background-image: url("../../images/background/equipe-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
