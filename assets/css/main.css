@@ -2525,7 +2525,7 @@ input, select, textarea {
 		.image.main img {
 			width: 100%;
 			max-height: 300px;
-			object-fit: cover;				
+			object-fit: cover;
 		}
 
 /* List */
@@ -3436,11 +3436,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: block;
 			}
 
 				#nav + #main {
-					padding-top: 0;
+					padding-top: 3em;
+				}
+
+				#show-cel {
+					display: none;
 				}
 
 		}
