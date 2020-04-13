@@ -109,6 +109,30 @@ ul.actions.right {
 	/* border: solid 2px; */
 }
 
+/* Estilo de pagina Noticias */
+.news-box {
+	border-bottom: solid 1px;
+	border-bottom-color: #ccc;
+	background-color: #eee;
+	display: flex;
+	max-height:150px;
+	padding: 10px 0 0 0;
+}
+.news-image{
+	width: 200px;
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+.news-image img{
+	width: 100%;
+}
+.news-content {
+	font-family: sans-serif;
+	color: #aaa;
+	font-size: 12px;
+}
+
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
 	.column {
