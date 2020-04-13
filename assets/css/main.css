@@ -121,16 +121,20 @@ ul.actions.right {
 .news-image{
 	width: 200px;
 	float: left;
-	padding-right: 25px;
-	padding-bottom: 10px;
+	padding: 0 25px 10px 0;
+	/* border: solid 2px; */
 }
 .news-image img{
 	width: 100%;
+	/* object-fit: cover; */
 }
 .news-content {
 	font-family: sans-serif;
 	color: #aaa;
 	font-size: 12px;
+}
+.news-preview{
+	width: 90%;
 }
 
   /* Responsive columns - one column layout (vertical) on small screens */
@@ -3468,6 +3472,9 @@ input, select, textarea {
 				}
 
 				#show-cel {
+					display: none;
+				}
+				.news-preview{
 					display: none;
 				}
 
