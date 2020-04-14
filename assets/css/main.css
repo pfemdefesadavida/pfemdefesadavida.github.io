@@ -137,6 +137,31 @@ ul.actions.right {
 	width: 90%;
 }
 
+/* Estilos dos indices de contribuicao */
+.contribuir-box {
+	border-bottom: solid 1px;
+	border-bottom-color: #ccc;
+	background-color: rgba(255, 255, 255, 0.35);
+	display: flex;
+	max-height:150px;
+	padding: 10px 0 0 0;
+}
+.contribuir-image{
+	width: 150px;
+	float: left;
+	padding: 0 25px 10px 0;
+	/* border: solid 2px; */
+}
+.contribuir-image img{
+	width: 100%;
+	/* object-fit: cover; */
+}
+.contribuir-content {
+	font-family: sans-serif;
+	color: #aaa;
+	font-size: 14px;
+}
+
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
 	.column {
